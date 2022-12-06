@@ -1,0 +1,13 @@
+.miel{
+    width: 30%;
+}
+
+.img-productos-tamano{
+    @include medidas(300px, 400px)
+   
+}
+
+.cera{
+    @include medidas(300px, 300px)
+   
+}

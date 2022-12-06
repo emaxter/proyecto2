@@ -1,0 +1,16 @@
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//importando archivos secundarios
+
+@import "utilidades/_mixin";
+@import "utilidades/variables";
+@import "contenedores/index";
+@import "contenedores/producto";
+@import "contenedores/contacto";
+@import "contenedores/empleos";
+

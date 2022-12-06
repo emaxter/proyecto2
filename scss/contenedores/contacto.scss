@@ -1,0 +1,29 @@
+.contacto{
+    display: inline-flex;
+    text-align: center;   
+ }
+ .face{
+     
+     width: 30%;
+ }
+ 
+ .insta{
+    @include medidas(300px, 400px)
+     
+ }
+ 
+ .whatssap{
+    @include medidas(100%, 50%)
+    
+ }
+ .text-w{
+     text-align: end;
+     color:$color-texto;
+     font-weight: bold;
+ }
+ 
+ p{
+    color: $color-texto;
+    font-weight: bold;
+    font-size: x-large;
+ }

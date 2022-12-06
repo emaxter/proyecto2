@@ -1,0 +1,64 @@
+/*estilos generales*/
+
+body{
+    background-color:$color-fondo;
+    background-image: url(../img/fondo.webp);
+}
+header{
+    background-color: $color-barra;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+/* estilos de menu*/
+header.color{
+    background-color: $color-barra;
+    font-family: 'Roboto', sans-serif;
+}
+header nav div a:hover{
+    background-color: $color-fondo;
+    transform: scale(0.8);
+    box-shadow: 2px 2px 5px $color-texto;
+    }
+   /*estilos en el main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.beneficio{
+    text-align: center;
+}
+
+main h2{
+    text-decoration-color: $color-texto;
+    text-align: center;
+    padding: 1rem;
+}
+main p{
+    text-decoration-color: $color-texto;
+    text-align: center;
+    padding: 1rem;
+}
+main img{    
+    width: 50%;
+}
+footer{
+    background-color: $color-fondo;
+    padding: 20px 50px 20px 0px ;
+}
+
+footer p{
+    text-decoration-color: $color-texto;
+    font-weight: bold;
+    text-align: right;
+}
+footer p a{
+    text-decoration: none;
+    color: $color-texto;
+}
